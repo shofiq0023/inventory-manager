@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=0, initial-scale=1.0" />
+		<title>local storage test</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="main.js" defer></script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="container">
+				<form id="form" autocomplete="off">
+					<div class="form-control">
+						<label for="text">Item name:</label>
+						<input id="text" type="text" placeholder="Enter source..." />
+					</div>
+					<div class="form-control">
+						<label for="price">Price:</label>
+						<input id="price" type="number" placeholder="Enter price..." />
+					</div>
+					<input type="submit" value="add" class="btn-submit" />
+				</form>
+				<div class="total">
+					<h4>Total:</h4>
+					<h1 id="total"></h1>
+				</div>
+				<ul id="list"></ul>
+			</div>
+		</div>
+	</body>
+</html>
